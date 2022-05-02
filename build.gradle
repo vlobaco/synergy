@@ -10,6 +10,17 @@ sourceCompatibility = '17'
 
 repositories {
 	mavenCentral()
+    maven { 
+    	url "https://git.institutomilitar.com/api/v4/projects/772/packages/maven"
+    	name "GitLab" 
+    	credentials (HttpHeaderCredentials){
+    		name = 'deploy-token'
+    		value = 'SNfyW9gvTcifVj5ydo-A'
+    	}
+    	authentication {
+    		header(HttpHeaderAuthentication)
+    	}
+    }
 }
 
 dependencies {
@@ -17,6 +28,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // Synergy-api
+    implementation 'es.mdef:synergy-api:1.0-SNAPSHOT'
 }
 
 tasks.named('test') {
