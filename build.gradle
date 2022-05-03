@@ -6,7 +6,7 @@ plugins {
 
 group = 'es.mdef'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
@@ -30,7 +30,7 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // Synergy-api
-    implementation 'es.mdef:synergy-api:2.5.7-SNAPSHOT'
+    implementation 'es.mdef:synergy-api:2.5.8-SNAPSHOT'
 }
 
 tasks.named('test') {
