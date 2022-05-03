@@ -1,0 +1,144 @@
+2022-05-03 07:32  INFO 38772 --- [main] es.mdef.synergy.SynergyApplication       : Starting SynergyApplication using Java 17.0.3 on ubuntu-linux-20-04-desktop with PID 38772 (/home/parallels/Documents/synergy/build/classes/java/main started by parallels in /home/parallels/Documents/synergy)
+2022-05-03 07:32  INFO 38772 --- [main] es.mdef.synergy.SynergyApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 07:32  INFO 38772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 07:32  INFO 38772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 6 JPA repository interfaces.
+2022-05-03 07:32  INFO 38772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-03 07:32  INFO 38772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 07:32  INFO 38772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 07:32  INFO 38772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 07:32  INFO 38772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 553 ms
+2022-05-03 07:32  INFO 38772 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 07:32  INFO 38772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 07:32  INFO 38772 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 07:32  INFO 38772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 07:32  INFO 38772 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 07:32  INFO 38772 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-03 07:32  WARN 38772 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.AttachmentField.url not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 07:32  WARN 38772 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.DateField.format not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 07:32  INFO 38772 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 07:32  INFO 38772 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 07:32  WARN 38772 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 07:32  INFO 38772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-03 07:32  INFO 38772 --- [main] es.mdef.synergy.SynergyApplication       : Started SynergyApplication in 3.373 seconds (JVM running for 3.509)
+2022-05-03 07:33  INFO 38772 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 07:33  INFO 38772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 07:33  INFO 38772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 10:03  INFO 51153 --- [Test worker] es.mdef.synergy.SynergyApplicationTests  : Starting SynergyApplicationTests using Java 17.0.3 on ubuntu-linux-20-04-desktop with PID 51153 (started by parallels in /home/parallels/Documents/synergy)
+2022-05-03 10:03  INFO 51153 --- [Test worker] es.mdef.synergy.SynergyApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:03  INFO 51153 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 10:03  INFO 51153 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 6 JPA repository interfaces.
+2022-05-03 10:03  INFO 51153 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 10:03  INFO 51153 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 10:03  INFO 51153 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 10:03  INFO 51153 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 10:03  INFO 51153 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 10:03  INFO 51153 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-03 10:03  WARN 51153 --- [Test worker] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.AttachmentField.url not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:03  WARN 51153 --- [Test worker] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.DateField.format not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:03  INFO 51153 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 10:03  INFO 51153 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:03  WARN 51153 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 10:03  INFO 51153 --- [Test worker] es.mdef.synergy.SynergyApplicationTests  : Started SynergyApplicationTests in 3.635 seconds (JVM running for 4.189)
+2022-05-03 10:03  INFO 51153 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:03  INFO 51153 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 10:03  INFO 51153 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 10:06  INFO 51919 --- [main] es.mdef.synergy.SynergyApplication       : Starting SynergyApplication using Java 17.0.3 on ubuntu-linux-20-04-desktop with PID 51919 (/home/parallels/Documents/synergy/build/classes/java/main started by parallels in /home/parallels/Documents/synergy)
+2022-05-03 10:06  INFO 51919 --- [main] es.mdef.synergy.SynergyApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:06  INFO 51919 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 10:06  INFO 51919 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 6 JPA repository interfaces.
+2022-05-03 10:06  INFO 51919 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-03 10:06  INFO 51919 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 10:06  INFO 51919 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 10:06  INFO 51919 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 10:06  INFO 51919 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2022-05-03 10:06  INFO 51919 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 10:06  INFO 51919 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 10:06  INFO 51919 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 10:06  INFO 51919 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 10:06  INFO 51919 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 10:06  INFO 51919 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-03 10:06  WARN 51919 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.AttachmentField.url not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:06  WARN 51919 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.DateField.format not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:06  INFO 51919 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 10:06  INFO 51919 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:06  WARN 51919 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 10:06  INFO 51919 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-03 10:06  INFO 51919 --- [main] es.mdef.synergy.SynergyApplication       : Started SynergyApplication in 3.306 seconds (JVM running for 3.462)
+2022-05-03 10:06  INFO 51919 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:06  INFO 51919 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 10:07  INFO 51919 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 10:13  INFO 53399 --- [main] es.mdef.synergy.SynergyApplication       : Starting SynergyApplication using Java 17.0.3 on ubuntu-linux-20-04-desktop with PID 53399 (/home/parallels/Documents/synergy/build/classes/java/main started by parallels in /home/parallels/Documents/synergy)
+2022-05-03 10:13  INFO 53399 --- [main] es.mdef.synergy.SynergyApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:13  INFO 53399 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 10:13  INFO 53399 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 6 JPA repository interfaces.
+2022-05-03 10:13  INFO 53399 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-03 10:13  INFO 53399 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 10:13  INFO 53399 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 10:13  INFO 53399 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 10:13  INFO 53399 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 638 ms
+2022-05-03 10:13  INFO 53399 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 10:13  INFO 53399 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 10:13  INFO 53399 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 10:13  INFO 53399 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 10:13  INFO 53399 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 10:13  INFO 53399 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-03 10:13  WARN 53399 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.AttachmentField.url not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:13  WARN 53399 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.DateField.format not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:13  INFO 53399 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 10:13  INFO 53399 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:13  WARN 53399 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 10:13  INFO 53399 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-03 10:13  INFO 53399 --- [main] es.mdef.synergy.SynergyApplication       : Started SynergyApplication in 3.913 seconds (JVM running for 4.095)
+2022-05-03 10:13  INFO 53399 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:13  INFO 53399 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 10:13  INFO 53399 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 10:15  INFO 54051 --- [main] es.mdef.synergy.SynergyApplication       : Starting SynergyApplication using Java 17.0.3 on ubuntu-linux-20-04-desktop with PID 54051 (/home/parallels/Documents/synergy/build/libs/synergy-1.0.0-SNAPSHOT.jar started by parallels in /home/parallels/Documents/synergy)
+2022-05-03 10:15  INFO 54051 --- [main] es.mdef.synergy.SynergyApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:15  INFO 54051 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 10:15  INFO 54051 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 6 JPA repository interfaces.
+2022-05-03 10:15  INFO 54051 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2022-05-03 10:15  INFO 54051 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 10:15  INFO 54051 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 10:15  INFO 54051 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 10:15  INFO 54051 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2022-05-03 10:15  INFO 54051 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 10:15  INFO 54051 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 10:15  INFO 54051 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 10:15  INFO 54051 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 10:15  INFO 54051 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 10:15  INFO 54051 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-03 10:15  WARN 54051 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.AttachmentField.url not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:15  WARN 54051 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.DateField.format not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:15  INFO 54051 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 10:15  INFO 54051 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:15  WARN 54051 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 10:15  INFO 54051 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2022-05-03 10:15  INFO 54051 --- [main] es.mdef.synergy.SynergyApplication       : Started SynergyApplication in 4.618 seconds (JVM running for 4.941)
+2022-05-03 10:15  INFO 54051 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:15  INFO 54051 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 10:15  INFO 54051 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-03 10:54  INFO 60075 --- [main] es.mdef.synergy.SynergyApplication       : Starting SynergyApplication using Java 17.0.3 on ubuntu-linux-20-04-desktop with PID 60075 (/home/parallels/Documents/synergy/build/libs/synergy-1.0.0-SNAPSHOT.jar started by parallels in /home/parallels/Documents/synergy)
+2022-05-03 10:54  INFO 60075 --- [main] es.mdef.synergy.SynergyApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-05-03 10:54  INFO 60075 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-03 10:54  INFO 60075 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 6 JPA repository interfaces.
+2022-05-03 10:54  INFO 60075 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-03 10:54  INFO 60075 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-03 10:54  INFO 60075 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-03 10:54  INFO 60075 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-03 10:54  INFO 60075 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 888 ms
+2022-05-03 10:54  INFO 60075 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-03 10:54  INFO 60075 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-03 10:54  INFO 60075 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-03 10:54  INFO 60075 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-03 10:54  INFO 60075 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-03 10:54  INFO 60075 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-05-03 10:54  WARN 60075 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.AttachmentField.url not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:54  WARN 60075 --- [main] c.a.r.i.JPAXMLOverriddenAnnotationReader : HHH000207: Property synergy.api.DateField.format not found in class but described in <mapping-file/> (possible typo error)
+2022-05-03 10:54  INFO 60075 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-03 10:54  INFO 60075 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:54  WARN 60075 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-03 10:54  INFO 60075 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-03 10:54  INFO 60075 --- [main] es.mdef.synergy.SynergyApplication       : Started SynergyApplication in 4.747 seconds (JVM running for 5.077)
+2022-05-03 10:54  INFO 60075 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-03 10:54  INFO 60075 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-03 10:54  INFO 60075 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

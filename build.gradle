@@ -5,14 +5,18 @@ plugins {
 	id 'application'
 }
 
-application {
-    //mainModule = 'org.gradle.sample.app' // name defined in module-info.java
-    mainClass = 'es.mdef.synergy.SynergyApplication'
+jar {
+	manifest {
+		attributes 'Main-Class':'es.mdef.synergy.SynergyApplication'
+//			   , 'Class-Path': configurations.runtimeClasspath.files.collect { it.name() }.join(' ')
+	}
 }
+
 
 group = 'es.mdef'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '1.8'
+mainClassName= 'es.mdef.synergy.SynergyApplication'
 
 repositories {
 	mavenCentral()

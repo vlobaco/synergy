@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<entity-mappings 
+	xmlns="http://java.sun.com/xml/ns/persistence/orm" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd" 
+	version="1.0"
+	> 
+    <entity name="Field" class="synergy.api.Field" access="FIELD">
+    	<table name="FIELDS"/>
+        <inheritance/>
+        <discriminator-column name="FLD_TYPE" discriminator-type="STRING"/>
+        <attributes>
+            <basic name="compulsory" optional="true"> 
+                <column name="IS_COMPULSORY"/> 
+            </basic>
+            <many-to-one name="process">
+            </many-to-one>
+        </attributes>
+     </entity> 
+</entity-mappings>
