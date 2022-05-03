@@ -2,10 +2,16 @@ plugins {
 	id 'org.springframework.boot' version '2.6.7'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'application'
+}
+
+application {
+    //mainModule = 'org.gradle.sample.app' // name defined in module-info.java
+    mainClass = 'es.mdef.synergy.SynergyApplication'
 }
 
 group = 'es.mdef'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
