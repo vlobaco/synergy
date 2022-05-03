@@ -13,6 +13,8 @@
             <basic name="compulsory" optional="true"> 
                 <column name="IS_COMPULSORY"/> 
             </basic>
+            <many-to-one name="process">
+            </many-to-one>
         </attributes>
      </entity> 
 </entity-mappings>

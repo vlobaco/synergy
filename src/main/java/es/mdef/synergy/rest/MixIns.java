@@ -16,4 +16,8 @@ public class MixIns {
 	@JsonIgnoreProperties({"reader"})
 	public abstract class AttachmentFieldMixIn {
 	}
+	
+	@JsonIgnoreProperties({"fields"})
+	public abstract class ProcessMixIn{
+	}
 }

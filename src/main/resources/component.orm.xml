@@ -11,7 +11,7 @@
         		<column name="ID"/>
         		<generated-value strategy="IDENTITY"/>
         	</id>
-            <basic name="name" optional="false"> 
+            <basic name="name" optional="true"> 
                 <column name="NAME"/> 
             </basic> 
             <basic name="description" optional="true"> 
